@@ -58,3 +58,53 @@ li.nav-item a:hover {
 li.nav-item a.active {
   color: rgba(0, 0, 0, 0.9);
 }
+
+.section-2{
+  font-family: "Open Sans";
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.section-2-item{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.section-2-image{
+  text-align: right;
+  width: 50%;
+}
+
+.section-2-image a img{
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.section-2-description{ 
+  text-align: left;
+  width: 50%;
+}
+
+.section-2-description p{ 
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.section-2-description a{ 
+  text-decoration: inherit;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #333333;
+  display: inline-block;
+  opacity: 0.8;
+  background-color:#FAD02C;
+}
+
+.section-2-description a:hover {
+  background-color:#ADD8E6;
+}
