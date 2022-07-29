@@ -340,11 +340,12 @@ h4 {
 footer {
   bottom: 0px;
   width: 100%;
-  background: white;
+  background: rgb(80, 230, 200);
 }
 
 .main-content {
   display: flex;
+  color: white;
 }
 
 .main-content .box{
